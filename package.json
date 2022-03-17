@@ -1,0 +1,26 @@
+{
+  "name": "s3-bucket-empty",
+  "version": "0.0.2",
+  "description": "Delete all files and directories inside AWS S3 Bucket",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lapidus79/s3-bucket-empty"
+  },
+  "keywords": [
+    "Empty",
+    "Delete",
+    "Clean",
+    "S3",
+    "Bucket",
+    "AWS"
+  ],
+  "author": "lapidus79",
+  "license": "MIT",
+  "dependencies": {
+    "s3": "^4.4.0"
+  }
+}
