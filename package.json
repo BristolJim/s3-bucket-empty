@@ -1,6 +1,6 @@
 {
-  "name": "s3-bucket-empty",
-  "version": "0.0.2",
+  "name": "bristoljim-s3-bucket-empty",
+  "version": "0.0.3",
   "description": "Delete all files and directories inside AWS S3 Bucket",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lapidus79/s3-bucket-empty"
+    "url": "git+https://github.com/bristoljim/s3-bucket-empty.git"
   },
   "keywords": [
     "Empty",
@@ -20,7 +20,11 @@
   ],
   "author": "lapidus79",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bristoljim/s3-bucket-empty/issues"
+  },
+  "homepage": "https://github.com/bristoljim/s3-bucket-empty#readme",
   "dependencies": {
-    "s3": "^4.4.0"
+    "@auth0/s3": "^1.0.0"
   }
 }
